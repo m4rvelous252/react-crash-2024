@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-	apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-	authDomain: "react-jobs-5e1d2.firebaseapp.com",
-	projectId: "react-jobs-5e1d2",
-	storageBucket: "react-jobs-5e1d2.appspot.com",
-	messagingSenderId: "665361308055",
-	appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: "react-jobs-5e1d2.firebaseapp.com",
+  projectId: "react-jobs-5e1d2",
+  storageBucket: "react-jobs-5e1d2.appspot.com",
+  messagingSenderId: "665361308055",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
